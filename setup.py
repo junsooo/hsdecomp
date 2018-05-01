@@ -8,7 +8,7 @@ setup(
     author = 'Jonathan S',
     author_email = 'gereeter+code@gmail.com',
     license = 'MIT',
-    packages = ['hsdecomp'],
+    packages = ['hsdecomp', 'hsdecomp.parse'],
     install_requires = [
         'pyelftools',
         'capstone'
